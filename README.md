@@ -31,8 +31,10 @@ Beispiel:<br>
 │   ├── 003.wav
 │   └── mp3
 │       ├── 20230827_1.mp3
-│	    ├── 20230827_2.mp3
-│	    └── 20230827_3.mp3
-│ usw.
+│       ├── 20230827_2.mp3
+│       └── 20230827_3.mp3
+│ .
+│ .
+│ .
 ├── convert_wav_to_mp3.ps1
 └── run_convert_wav_to_mp3.bat</code></pre>
