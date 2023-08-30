@@ -1,13 +1,13 @@
 $ffmpegPath = Get-Command ffmpeg.exe -ErrorAction SilentlyContinue
 
 if (-not $ffmpegPath) {
-    Write-Host "FFmpeg is not found. Installing FFmpeg using winget..."
+    Write-Host "FFmpeg not found. Installing FFmpeg using winget..."
     winget install ffmpeg
 
     $ffmpegPath = Get-Command ffmpeg.exe -ErrorAction SilentlyContinue
 
     if (-not $ffmpegPath) {
-        Write-Host "FFmpeg installation failed. Please install FFmpeg manually."
+        Write-Host "FFmpeg installation failed. Install FFmpeg manually."
         Exit 1
     }
 }
@@ -30,7 +30,7 @@ foreach ($folder in $folders)
 		$wavs_all[$wavs_all.Count - 1]	# 008.wav (last file in the list)
 	)
 
-	$year = "0000"	# default values for error handling: TODO
+	$year = "0000"
 	$month = "00"
 	$day = "00"
 
