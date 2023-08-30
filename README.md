@@ -20,9 +20,9 @@ Beispiel:<br>
 Dann kann man die `.bat` ausführen.<br>
 
 
-Die ersten 15 Zeilen sind nur dazu da, dass [FFmpeg](https://ffmpeg.org/) installiert wird, mit dem ich die konvertierung mache.<br>
+Die ersten 15 Zeilen sind nur dazu da, dass [FFmpeg](https://ffmpeg.org/) installiert wird, mit dem ich die Konvertierung mache.<br>
 
-Die konvertierten Dateien landen dann im Ordner von dem Tag unter `mp3`. Das sollte man aber relativ leicht ändern können.<br>
+Die konvertierten Dateien landen dann im Ordner von dem Tag unter `mp3`. Das sollte man aber relativ leicht ändern können, wenn man alle an einem Ort haben wollen würde.<br>
 Beispiel:<br>
 <pre><code>root
 ├── 2023.08.27
