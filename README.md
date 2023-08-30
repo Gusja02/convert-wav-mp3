@@ -4,8 +4,8 @@ Einfach die .ps1 und .bat runterladen und in einen Ordner mit .wav Dateien legen
 <br>
 Beispiel:<br>
 - root<br>
-  - 2023.08.27<br>
-    - 001.wav<br>
+  >- 2023.08.27<br>
+    >>- 001.wav<br>
     - 002.wav<br>
     - 003.wav<br>
   - 2023.08.30<br>
