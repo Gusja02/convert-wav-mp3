@@ -3,20 +3,21 @@
 Einfach die .ps1 und .bat runterladen und in den Ordner mit den Tagen, die die .wav Dateien beinhalten, legen<br>
 <br>
 Beispiel:<br>
-root<br>
-├── 2023.08.27<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 001.wav<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 002.wav<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 003.wav<br>
-├── 2023.08.30<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 001.wav<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 002.wav<br>
-├── 2023.09.03<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 001.wav<br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 002.wav<br>
-├── <span style="color:blue">convert_wav_to_mp3.ps&nbsp;&nbsp;1<br>
-└── run_convert_wav_to_mp3.bat<br></span>
-<br>
+```
+root
+├── 2023.08.27
+│   ├── 001.wav
+│   ├── 002.wav
+│   └── 003.wav
+├── 2023.08.30
+│   ├── 001.wav
+│   └── 002.wav
+├── 2023.09.03
+│   ├── 001.wav
+│   └── 002.wav
+├── convert_wav_to_mp3.ps  1
+└── run_convert_wav_to_mp3.bat
+```
 Dann kann man die .bat ausführen.<br>
 
 
