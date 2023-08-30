@@ -6,7 +6,7 @@ Beispiel:<br>
 <pre><code>
 root
 ├── 2023.08.27
-│	├── 001.wav
+│   ├── 001.wav
 │   ├── 002.wav
 │   └── 003.wav
 ├── 2023.08.30
@@ -15,7 +15,7 @@ root
 ├── 2023.09.03
 │   ├── 001.wav
 │   └── 002.wav
-├── <style color="red">convert_wav_to_mp3.ps1</style>
+├── convert_wav_to_mp3.ps1
 └── run_convert_wav_to_mp3.bat
 </code></pre>
 <br>
