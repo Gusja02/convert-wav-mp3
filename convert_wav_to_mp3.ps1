@@ -22,19 +22,31 @@ foreach ($folder in $folders)
 {	
 	"Getting .wavs..."
 	$wavs_all = Get-ChildItem -Path $folder -File "*.wav"	# store every .wav in the current folder
+	$wavs
 	
-	$wavs =
-	@(									# example:
-		$wavs_all[0]					# 001.wav
-		$wavs_all[1]					# 002.wav
-		$wavs_all[$wavs_all.Count - 1]	# 008.wav (last file in the list)
-	)
+	if ($wavs_all.Count -lt 1)
+	{
+		continue
+	}
+	elseif ($wavs_all.Count -lt 3)
+	{
+		$wavs = $wavs_all
+	}
+	else
+	{
+		$wavs = @(
+			$wavs_all[0]                        # 001.wav
+			$wavs_all[1]                        # 002.wav
+			$wavs_all[-1]                       # 008.wav (last file in the list)
+		)
+	}
 
+	
 	$year = "0000"
 	$month = "00"
 	$day = "00"
 
-	$output_path = ".\$($folder)\mp3\"	# example: .\2023.08.27\mp3\
+	$output_path = ".\$($folder)\mp3\"	# .\2023.08.27\mp3\
 
 	if (!(Test-Path -Path $output_path))
 	{
